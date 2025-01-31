@@ -1,0 +1,67 @@
+.services {
+  background-color: $pink;
+  padding: 100px 0 129px;
+
+  @media (max-width: 1280px) {
+    padding: 77px 0 120px;
+  }
+  @media (max-width: 768px) {
+    padding: 76px 0 113px;
+    flex-direction: column;
+    width: 100%;
+  }
+  @media (max-width: 360px) {
+    padding: 77px 0 100px;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+    @media (max-width: 1280px) {
+      gap: 60px;
+    }
+    @media (max-width: 768px) {
+      gap: 50px;
+    }
+    @media (max-width: 768px) {
+      gap: 40px;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    @media (max-width: 1440px) {
+      gap: 60px;
+    }
+    @media (max-width: 1280px) {
+      gap: 50px;
+    }
+    @media (max-width: 768px) {
+      gap: 40px;
+    }
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
+  }
+  &__item {
+    display: flex;
+    box-sizing: border-box;
+    width: 49%;
+    @media (max-width: 1000px) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+  padding: 0px 200px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  @media (max-width: 1440px) {
+    padding: 0px 120px;
+  }
+  @media (max-width: 1280px) {
+    padding: 0px 80px;
+  }
+  @media (max-width: 768px) {
+    padding: 0px 60px;
+  }
+  @media (max-width: 360px) {
+    padding: 0px 20px;
+  }
+}

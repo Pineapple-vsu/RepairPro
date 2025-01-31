@@ -1,0 +1,63 @@
+.banner {
+  &__logo {
+    &__long {
+      width: 182px;
+      height: 52px;
+      flex-shrink: 0;
+      @media (max-width: 1440px) {
+        width: 156px;
+        height: 45px;
+        flex-shrink: 0;
+      }
+      @media (max-width: 1280px) {
+        width: 156px;
+        height: 45px;
+        flex-shrink: 0;
+      }
+
+      @media (max-width: 1000px) {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        display: block;
+        width: 152px;
+        height: 44px;
+        flex-shrink: 0;
+      }
+      @media (max-width: 500px) {
+        display: none;
+      }
+    }
+    &__short {
+      display: none;
+
+      @media (max-width: 1000px) {
+        display: block;
+        width: 43.36px;
+        height: 44px;
+        flex-shrink: 0;
+      }
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+
+      @media (max-width: 500px) {
+        display: block;
+        width: 43.36px;
+        height: 44px;
+        flex-shrink: 0;
+      }
+    }
+  }
+}
+
+.menu,
+.footer {
+  &__logo {
+    width: 152px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+}
